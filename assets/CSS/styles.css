@@ -1,0 +1,44 @@
+body{
+    font-family: 'Fira Sans', sans-serif; 
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.section-title{
+    font-size: 200%;
+}
+
+.main-section-title{
+    font-size: 350%;
+    text-align: center;
+}
+
+.character{
+    display: inline-block;
+    border-style: solid;
+    border-color: #a17a25;
+    border-width: 3px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.character.image {
+    padding: 0px 16px;
+    margin: 3px 0px;
+}
+
+.character-name{
+    text-align: center;
+}
+
+.character-health{
+    text-align: center;
+}
